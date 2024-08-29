@@ -1,6 +1,6 @@
 body {
-    background: rgb(200, 125, 205);
-    color: hwb(0 18% 82%);
+    background: rgb(125, 198, 205);
+    color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
 }
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(41, 189, 239);
+    background: rgb(239, 80, 41);
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -37,7 +37,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(219, 241, 245);
+    background: rgb(245, 238, 219);
     display: flex;
 }
 .sidebar {
@@ -60,33 +60,8 @@ main {
 h2, h3 {
     margin: 0px;
 }
- /* portfolio styles */
- .content h1 {
-    color: black;
-}
-
-#portfolio {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-#portfolio li {
-    background: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-#portfolio li:hover {
-    background: #eee;
-}
-
-#portfolio a {
-    text-decoration: none;
-    color: #454545;
-}
-  /* portfolio styles */
-  .content h1 {
+/* portfolio styles */
+.content h1 {
     color: black;
 }
 
