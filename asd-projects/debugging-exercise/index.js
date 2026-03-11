@@ -89,7 +89,7 @@ function addNewGhostElement(ghost, id) {
   var $ghost = $("<img>")
     .attr("id", id)
     .attr("src", "img/ghost.png")
-    .css("left", ghost.x)
+    
     .css("top", ghost.y)
     .addClass("ghost");
 
@@ -159,7 +159,7 @@ function bounceGhost(ghost) {
 
 // this redraws the ghost's position on the screen
 function updateGhostOnScreen(ghost) {
-  maxGhosts = 1;
+  
 
   // these lines redraw the ghost's position
   $(ghost.id).css("left", ghost.x);
